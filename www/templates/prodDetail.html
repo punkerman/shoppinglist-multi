@@ -1,0 +1,23 @@
+<ion-view view-title="{{product.articulo}}">
+  <ion-content class="padding">
+  	<div class="list card">
+
+	  <div class="item item-avatar">
+	   	<h2>{{product.articulo}}</h2>
+	    <h3>{{product.marca}}</h3>
+	    <p>{{product.precio}} {{product.relacion}}</p>
+	  </div>
+
+	  <div class="item item-image">
+	    <img src="{{product.imagen}}" style="height:250px">
+	  </div>
+
+	  <a class="item item-icon-left balanced" ng-click="modal.show()">
+	    <i class="icon ion-plus"></i>
+	    agregar
+	  </a>
+
+</div>
+
+ </ion-content>
+</ion-view>

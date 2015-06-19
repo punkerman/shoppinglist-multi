@@ -1,0 +1,16 @@
+<ion-modal-view>
+        <ion-header-bar class="bar bar-header bar-balanced">
+          <h1 class="title">Agregar cantidad</h1>
+          <button class="button button-assertive" ng-click="modal.hide()">Cancelar</button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="list">
+            <label class="item item-input">
+              <span class="input-label">Cantidad</span>
+              <input ng-model="newProd.cant" type="number" min="1" step="0.1" >
+            </label>
+            
+            <button class="button button-large button-full button-positive" ng-click="modal.hide()">Aceptar</button>
+          </div>
+        </ion-content>
+      </ion-modal-view>
